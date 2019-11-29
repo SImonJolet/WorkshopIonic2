@@ -12,17 +12,21 @@ import { AngularFireModule } from "@angular/fire";
 import { AngularFireDatabaseModule } from "@angular/fire/database";
 import { AngularFireAuthModule } from "@angular/fire/auth";
 import { AngularFireStorageModule } from "@angular/fire/storage";
+import { mcall } from "q";
 
 export var firebaseConfig = {
-  apiKey: "AIzaSyCozsWB2_xHkc5KtELHK_HtSUezV65PFLc",
-  authDomain: "tutodrissas.firebaseapp.com",
-  databaseURL: "https://tutodrissas.firebaseio.com",
-  projectId: "tutodrissas",
-  storageBucket: "tutodrissas.appspot.com",
-  messagingSenderId: "1062277184624",
-  appId: "1:1062277184624:web:4d0212e75e7747333a88b5",
-  measurementId: "G-6XXBMWZ7NF"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
+
+// Les codes sont dans mes notes sur le mac, ou dans mon compte firebase, sur le projet tutodrissas
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
